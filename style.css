@@ -195,6 +195,9 @@ form p {
     cursor: pointer;
     transition: background 1s;
 }
+    .btn-field button a {
+    color: #fff;
+}
 .input-group{
     height: 280px;
 } 
