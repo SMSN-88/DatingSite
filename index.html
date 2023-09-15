@@ -2,197 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samson Portfolio</title>=
-    <link rel="stylesheet" href="style.css" type="text/css">
-
-<!--- box icons link --->
-<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-
-  <!--- remix icons link --->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
-
-  <!--- Google fonts link --->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Meet Me Dating App</title>
+    <script src="https://kit.fontawesome.com/e70d2bcaff.js" crossorigin="anonymous"></script>
+    <script src="js/button.js" type="text/javascript" href="https://cdn.optinmonster.com/wp-content/uploads/2016/10/Anatomy-of-the-Perfect-Thank-You-Page.png">
+    </script>
 </head>
 <body>
-    
-<!--- Header --->
+    <section id="home" class="home">
+     <div class="header">
+        <nav id="nav">
+            <img src="Images/logo 6.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#signup">Sign Up</a> </li>
+                <li><a href="#testimonies">Testimonies</a> </li>
+            </ul>
+        </nav>
+         <div class="text-box">
+            <h1>Meet Singles <br>Today!</h1>
+            <p><a href="#signup">There's 100's of singles waiting to meet you</a></p>
+         </div>
+     </div>
+    </section>
 
-<header>
-    <a href="home" class="logo">Samson <span>Portfolio.</span></a>
+    <section id="signup" class="signup">
+         <div class="container">
+            <div class="form-box">
+                <h2 id="title">Sign Up</h2>
+                <form>
+                    <div class="input-group">
+                        <div class="input-field" id="nameField">
+                            <i class="fa-solid fa-user-plus fa-beat" style="color: #ae5b5b;"></i>
+                            <input type="text" id="Name" name="Name" placeholder="Name" required>
+                        </div>
 
-    <div class="bx bx-menu" id="menu-icon"></div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope fa-beat" style="color: #ae5b5b;"></i>
+                            <input type="email" id="Email" name="Email" placeholder="Email" required>
+                        </div>
 
-    <ul class="navlist">
-     <li><a href="#home">Home</a></li>
-     <li><a href="#about">About</a></li>
-     <li><a href="#projects">Projects</a></li>
-     <li><a href="mailto:samson.a@hotmail.co.uk">Contact</a></li>
-    </ul>
-
-    <div class="top-btnn">
-        <a href="mailto:samson.a@hotmail.co.uk" method="post" class="h-btn">Contact Me</a>
-        
-    </div>
-
-
-</header>
-
-<!--- Hero --->
-<section class="hero" id="home">
-    <div class="main-content">
-        <h1>I'm <span>Samson Ayinde</span></h1> 
-        <p>Greetings! I'm Samson, a self-taught Front End Web Developer with an unquenchable thirst for transforming innovative ideas into captivating digital realities. 
-            My journey began in 2022, after an enriching 8-year tenure in the world of finance. Recognising the winds of change, I embarked on a new path, one that led me to the exhilarating realm of tech. 
-            It all started with a humble "Hello World," and from that moment on, I was captivated.
-            From crafting stunning landing pages to orchestrating seamless, responsive web ecosystems, my toolkit is versatile and ever-expanding. 
-            The trio of HTML, CSS & JavaScript as my canvas, I have already woven them into several awe-inspiring projects that bear testament to my passion and commitment.
-            Just as I am committed to perfecting my coding skills, I am equally dedicated to my other true love: Liverpool FC.  
-            With a passion for both technology and Liverpool FC, I bring a unique blend of skills, dedication, and an unwavering spirit to every project I undertake. 
-            I'm excited to connect and contribute to your team's success!</p>
-            
-
-            <div class="social">
-                <a href="https://instagram.com/britishyoruba88"><i class="ri-instagram-fill"></i></a>
-                <a href="https://linkedin.com/in/smsn-ayinde"><i class="ri-linkedin-fill"></i></a>
-                <a href="https://github.com/SMSN-88"><i class="ri-github-fill"></i></a>
-                <a href="mailto:samson.a@hotmail.co.uk"><i class="ri-mail-send-line"></i></a>
+                        <div class="pass-field"> 
+                          <i class="fa-solid fa-eye-slash" style="color: #ae5b5b;"></i>
+                            <input type="password" id="Password" name="Password" placeholder="Password" required>
+                          </div>
+                        <div class="input-field" id="fileField">
+                            <i class="fa-regular fa-image fa-beat" style="color: #ae5b5b;"></i>
+                            <input type="file" placeholder="file">
+                        </div>
+                        <p>Forgotten password <a href="#">Click Here!</a> </p>
+                    <div class="btn-field">
+                        <button type="button" id="signupBtn"><a href="https://cdn.optinmonster.com/wp-content/uploads/2016/10/Anatomy-of-the-Perfect-Thank-You-Page.png">Sign Up</a></button>
+                        <button type="button" id="signinBtn" class="disable">Sign In</button>
+                    </div>
+                </form>
             </div>
-            
-            <div class="main-btn">
-                <a href="mailto:samson.a@hotmail.co.uk" class="btn">Hire Me For Freelance Work</a>
-                <a href="https://dochub.com/m/shared-document/samson-a14/Noek8bMwxD15L02wl7d2qm/samson-ayinde-cv-pdf?dt=Fm1q3fHH_pRqrXDF58C5" download="YourCV.pdf" class="btn btn2">View My CV</a>
-                
-            </div>
-    </div>
-</section>
+           </div>
+    </section>
 
-<!--- About --->
-<section class="about" id="about">
-<div class="about-img" data-aos="zoom-in-down">
-    <img src="images/Me2.jpeg">
-</div>
-<div class="about-text" data-aos="zoom-in-up">
-    <h2>I am a <span>Freelance</span> <br>Front End Web Developer</h2>
-    <div class="exp-area">
-        <p class="exp">
-            Speciality:
-            <span>Website Design, Developer</span> 
-        </p>
-        <p class="exp">
-            Email:
-            <span>samson.a@hotmail.co.uk</span> 
-        </p>
-        <p class="exp">
-            Location:
-            <span>Dartford, UK</span> 
-        </p>
-        <p class="exp">
-            Freelance:
-            <span>Available</span> 
-        </p>
-    </div>
-    <a href="#projects" class="btn">View Projects</a>
-</div>
-</section>
-
-<!--- Projects --->
-<section class="projects" id="projects">
-<div class="center-text">
-    <h2>My <span>Projects</span></h2>
-</div>
-<div class="Projects-content">
-    <div class="row">
-        <img src="images/MEET.png">
-        <div class="main-row">
-            <div class="row-text">
-                <a href="https://meetmedating.netlify.app/" target="_blank"><h5>Meet Me</h5></a>
+    <section id="testimonies" class="testimonies">
+        <h3 class="testimonies-title">Relationship Testimonies</h3>
+        <div class="testimonies-container container">
+          <div class="testimonies-box">
+            <div class="customer-detail">
+              <div class="customer-photo">
+                <img src="Images/couple4.jpg" alt="" />
+                <p class="customer-name">Marcus & Tamina</p>
+              </div>
             </div>
-            <div class="row-icon">
-                <a href="https://github.com/SMSN-88/DatingSite" target="_blank"><i class="ri-github-fill"></i></a>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
             </div>
-        </div>
-        <h4>Dating website for singles</h4>
-    </div>
-    <div class="row">
-        <img src="images/restaurant.png">
-        <div class="main-row">
-            <div class="row-text">
-                <a href="https://smsn-gymkitchen.netlify.app/" target="_blank"><h5>SMSN Kitchen</h5></a>
-            </div>
-            <div class="row-icon">
-                <a href="https://github.com/SMSN-88/SMSN-GymKitchen" target="_blank"><i class="ri-github-fill"></i></a>
-            </div>
-        </div>
-        <h4>Website for Restaurants</h4>
-    </div>
-    <div class="row">
-        <img src="images/whatsapp.png">
-        <div class="main-row">
-            <div class="row-text">
-                <a href="https://project-whatsapp.netlify.app/" target="_blank"><h5>Whats App (clone)</h5></a>
-            </div>
-            <div class="row-icon">
-                <a href="https://github.com/SMSN-88/whatsapp" target="_blank"><i class="ri-github-fill"></i></a>
-            </div>
-        </div>
-        <h4>A clone site of WhatsApp web Browser</h4>
-    </div>
-    <div class="row">
-        <img src="images/youtube.png">
-        <div class="main-row">
-            <div class="row-text">
-                <a href="https://project-you-tube.netlify.app/" target="_blank"><h5>YouTube (Clone)</h5></a>
-            </div>
-            <div class="row-icon">
-                <a href="https://github.com/SMSN-88/project_youtube" target="_blank"><i class="ri-github-fill"></i></a>
-            </div>
-        </div>
-        <h4>A clone site of YouTube</h4>
-    </div>
-    <div class="row">
-        <img src="images/cafe.jpeg">
-        <div class="main-row">
-            <div class="row-text">
-                <a href="https://smsncafe.netlify.app/" target="_blank"><h5>Cafe landing page</h5></a>
-            </div>
-            <div class="row-icon">
-                <a href="https://github.com/SMSN-88/Cafe" target="_blank"><i class="ri-github-fill"></i></a>
-            </div>
-        </div>
-        <h4>A landing page for a local Cafe</h4>
-    </div>
-</div>
-</section>
-
-
-<div class="footer">
-    <div class="copyright">
-        <p>2023 Portfolio <span>Samson Ayinde</span></p>
-    </div>
-    <a href="#home" class="scroll-top">
-        <i class="ri-arrow-up-circle-line"></i>   
-    </a>
-</div>
-<!-- js link -->
-<script  src="script.js"></script>
-
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <p class="testimony-text">
+              We met on Meet Me 3 years ago, I signed up to Meet Me after a difficult break up and just wanted to see what was out there as I still believed in Love. After signing up, I answered a few questions and it matched me with a pool of guys that I was able to scroll and filter out who I like. Plus Meet Me allows the woman to make the first move as well as given women the option to block anyone they no longer wish to speak too. We're now happily engaged.
+            </p>
+            <div class="testimonies-container container">
+                <div class="testimonies-box">
+                  <div class="customer-detail">
+                    <div class="customer-photo">
+                      <img src="Images/couple6.webp" alt="" />
+                      <p class="customer-name">Jeff & Sally</p>
+                    </div>
+                  </div>
+                  <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    </div>
+                  <p class="testimony-text">
+                    We met on Meet Me 7 years ago, I didn't know what to expect but ater a few bad dates I figured I'll just give online dating a try and it's the best decison I've ever made. Been with my husband for over 5 years now.
+                  </p>
+                  <div class="testimonies-container container">
+                    <div class="testimonies-box">
+                      <div class="customer-detail">
+                        <div class="customer-photo">
+                          <img src="Images/couple7.png" alt="" />
+                          <p class="customer-name">John & Maggie</p>
+                        </div>
+                      </div>
+                      <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <p class="testimony-text">
+                        Meet Me gave me the confidence I needed after my Divorce, I now have a new lease of life and enjoying it with John.
+                      </p> 
+     </section>
+     <section>
+      <footer id="footer">
+        <h4>Meet Me &copy; all rights reserved</h4>
+        <p>Helpline: 01308506388</p>
+        <p onclick="myFunction()">Clicks: <a>0</a></p>
+      </footer>
+     </section>
 <script>
-  AOS.init({
-    offset: 300,
-    duration: 1400,
-  });
-</script>
 
+    let signupBtn = document.getElementById("signupBtn");
+    let signinBtn = document.getElementById("signinBtn");
+    let nameField = document.getElementById("nameField");
+    let fileField = document.getElementById("fileField");
+    let title = document.getElementById("title");
+    
+    signinBtn.onclick = function(){
+        nameField.style.maxHeight = "0";
+        fileField.style.maxHeight = "0";
+        title.innerHTML = "Sign In";
+        signupBtn.classList.add("disable");
+        signinBtn.classList.remove("disable");
+    }
 
+    signupBtn.onclick = function(){
+        nameField.style.maxHeight = "60px";
+        fileField.style.maxHeight = "60px";
+        passField.style.maxHeight = "60px";
+        title.innerHTML = "Sign Up";
+        signupBtn.classList.remove("disable");
+        signinBtn.classList.add("disable");
+    }
+    
+    </script>
+     <script src="script.js" defer></script>
 </body>
 </html>
